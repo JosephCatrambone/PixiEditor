@@ -73,6 +73,8 @@ internal class DocumentToolsModule
     public void UseSelectTool() => Internals.ChangeController.TryStartExecutor<SelectToolExecutor>();
 
     public void UseBrightnessTool() => Internals.ChangeController.TryStartExecutor<BrightnessToolExecutor>();
+    
+    public void UseBlurSharpenTool() => Internals.ChangeController.TryStartExecutor<BlurSharpenToolExecutor>();
 
     public void UseFloodFillTool() => Internals.ChangeController.TryStartExecutor<FloodFillToolExecutor>();
 
